@@ -15,4 +15,4 @@
 12) DELETE /api/post/{POST_ID} - удаление поста
 13) GET /api/user/{USER_LOGIN} - получение всех постов конкретного пользователя
 
-Запуск: go run cmd/redditclone/main.go
+Запускиз папки redditclone: go run cmd/redditclone/main.go
