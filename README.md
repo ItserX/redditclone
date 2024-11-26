@@ -1,5 +1,5 @@
 # redditclone
-Написал backend для копии reddit. Фронтэнд взят отсюда https://github.com/SolarityVR/solarity-dream
+Написал backend для копии reddit. Frontend взят отсюда https://github.com/SolarityVR/solarity-dream
 
 1) POST /api/register - регистрация
 2) POST /api/login - логин
