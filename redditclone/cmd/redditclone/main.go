@@ -40,8 +40,8 @@ func main() {
 		fmt.Println("get root directory error")
 	}
 
-	staticHTMLPath := filepath.Join(rootDir, "../", "../", "static", "html", "index.html")
-	staticDirPath := filepath.Join(rootDir, "../", "../", "static")
+	staticHTMLPath := filepath.Join(rootDir, "static", "html", "index.html")
+	staticDirPath := filepath.Join(rootDir, "static")
 
 	r.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w, r, staticHTMLPath)
